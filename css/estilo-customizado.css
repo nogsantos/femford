@@ -1,0 +1,38 @@
+/* 
+    Document   : estilo-customizado.css
+    Created on : 17/03/2012, 11:16:08
+    Author     : Amauri
+    Description:
+        
+*/
+
+/* 
+   TODO 
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.small {
+    text-align: right;
+    list-style-type: none;
+    font-family: arial;
+    font-size: 12px;
+}
+
+.small input{
+    width: 50px;
+} 
+
+#mainContent li{
+    border: solid #666666;
+}
+
+#mainContent .edit{
+    cursor: pointer;
+}
+
+#mainContent .close{
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -70px;
+}

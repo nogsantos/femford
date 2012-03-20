@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body{
+    font-family: Arial;
+    font-size: 11px;
+    height: 100%;
+    min-height: 100%;
+}
+/*h1 { 
+    padding: .2em; 
+    margin: 0; 
+}*/
+h3{
+    text-decoration: none !important;
+}
+#componentes {
+    position: relative;
+    float:left;
+    width: 100%; 
+}
+#dropArea { 
+    position: relative;
+    float: left;
+    width: 100%; 
+    height: auto;
+    float: left; 
+}
+#mainContent{
+    padding: 50px 20px 0 20px !important;
+    background-image: url("../images/transparent.png") !important;
+    background-repeat: repeat-x y !important;
+    background-position: left top !important;
+    list-style: none !important;
+    margin: 15px;
+    z-index: 999 !important;
+}
+#mainContent
+.tituloGrid{
+    position: absolute;
+    float: left;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 5px 0 5px 20px;
+    
+}
+#mainContent i {
+    cursor: move;
+} 
+#mainContent li{
+    list-style: none !important;
+    margin: 5px;
+    padding: 15px;
+    border: 2px solid transparent;
+}
+#mainContent li:hover{
+    border: 2px dotted #666;
+}
+.ativar{
+    background-color: #FFFFC6 !important;
+}
+#propriedades {
+    width: 100%; 
+}
+#itensComponents{
+    border: 0 !important;
+}
+#itensComponents ul {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+} 
+#itensComponents ul li {
+    margin-left: 0 !important;
+    padding: 3px 15px !important;
+    list-style: none !important;
+}
+#itensComponents ul li.first {
+    margin-left: 0 !important;
+    border-left: none !important;
+    list-style: none !important;
+}
+.removeEspaco{
+    padding: 0px !important;
+}
+.imgZindexBot{
+    z-index: 1 !important;
+}
+.pane-north{
+    height: auto !important;
+}
